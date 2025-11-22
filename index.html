@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Rules</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #58a6ff;
+      text-align: center;
+    }
+    h2 {
+      color: #f0f6fc;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 10px;
+    }
+    ol, ul {
+      padding-left: 25px;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #58a6ff;
+    }
+    .container {
+      background: #161b22;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #30363d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Rules</h1>
+    <p>These are the rules I live by / expect in my projects / community / server, etc.</p>
+
+    <ol>
+      <li><strong>Be respectful</strong> – No toxicity, harassment, or personal attacks.</li>
+      <li><strong>Stay on topic</strong> – Keep discussions relevant.</li>
+      <li><strong>No spam or self-promotion</strong> – Ads, referral links, or excessive self-promo will be removed.</li>
+      <li><strong>Use English</strong> (or whatever language you want) – So everyone can understand.</li>
+      <li><strong>No illegal content</strong> – Piracy, leaks, etc. are forbidden.</li>
+      <li><strong>Help others when you can</strong> – We grow together.</li>
+      <!-- Add as many rules as you want -->
+    </ol>
+
+    <h2>Consequences</h2>
+    <ul>
+      <li>First offense → Warning</li>
+      <li>Second offense → Temporary mute/ban</li>
+      <li>Serious or repeated offenses → Permanent ban</li>
+    </ul>
+
+    <p style="text-align:center; margin-top:50px;">
+      Last updated: <span id="date"></span>
+    </p>
+  </div>
+
+  <script>
+    document.getElementById("date").textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
